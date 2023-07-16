@@ -34,7 +34,8 @@ p {
   position: relative;
   display: block;
   width: 100%;
-  overflow: hidden;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 .section {
@@ -42,6 +43,7 @@ p {
   max-width: calc(100% - 40px);
   width: 860px;
   margin: 0 auto;
+  top: 150px;
   display: flex;
   flex-wrap: wrap;
   padding: 100px 0;
